@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+   
+
+nav{
+background-color: rgb(20, 20, 20);
+padding: 20px;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    
+}
+
+nav img{
+    width:70px;
+   
+    position: relative;
+    left: 20px;
+}
+
+    
+
+nav ul{
+ list-style: none;
+ display: flex;
+}
+
+nav ul li{
+margin: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    right: 60px;
+ 
+   border-radius: 5px;
+
+   
+}
+
+nav .search{
+    background-color: transparent;
+    padding: 0;
+    width: 300px;
+    display: flex;
+
+    /* Aplica también para la pantalla (Guitarras) */
+}
+
+nav .search button{
+    margin-left: 5px;
+    height: 30px;
+    background-color: lightgray;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+header img{
+ width: 100%; 
+ height: auto; 
+    
+}
+
+
+
+
+.intro{
+  /* Esto aplica también para el texto que se encuentra en la pantalla de (Guitarras) */
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 30px;
+    
+}
+
+
+
+p{
+    font-size: 18px;  
+    
+    font-weight: 100;
+
+    margin: auto    ;
+  
+   
+}
+
+.centerh2-destacados{
+    text-align: center;
+}
+
+.ediciones-especiales{
+    display: flex;
+     width: 100%;
+     height: 430px;
+     
+ }
+    
+  
+ .ediciones-especiales img{
+     width: 0px;
+     flex-grow: 1;
+     object-fit: cover;
+     opacity: .8;
+     transition: .5s ease;
+ }
+ 
+ .ediciones-especiales img:hover{
+     cursor: pointer;
+     width: 300px;
+     opacity: 1;
+     filter: contrast(120%);
+ }
+
+   
+   
+
+
+
+
+/* Contacto */
+
+.contacto{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+
+.centro{
+    text-align: center;
+}
+
+form{
+
+    margin: 0 auto;
+    width: 400px;
+background-color: rgb(28, 28, 28);
+padding:25px;
+
+    
+}
+
+form label{
+   color: rgb(255, 255, 255);
+    
+    display: block;
+    margin-bottom: 15px
+}
+
+form input{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+   
+}
+
+form textarea{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.move_map{
+
+    position: relative;
+    left: 404px;
+   
+}
+
+/* Promociones */
+
+.contenedor{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+.contenedor2{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.caja2{
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 150px;
+    width: 49%;
+    
+}
+
+.caja2 img{
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(158,158,158,1);
+-moz-box-shadow: 7px 7px 5px 0px rgba(158,158,158,1);
+box-shadow: 7px 7px 5px 0px rgba(158,158,158,1);
+   
+}
+
+.caja2 div{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(158,158,158,1);
+-moz-box-shadow: 7px 7px 5px 0px rgba(158,158,158,1);
+box-shadow: 7px 7px 5px 0px rgba(158,158,158,1);
+}
+.caja2 div h2,
+.caja2 div label,
+.caja2 div a{
+    margin-bottom: 10px;
+    
+}
+
+.caja2 a{
+    background-image: linear-gradient(gray, black);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+    
+
+
+ 
+
+
+
+
+
+
+/* Guitarras */
+
+h1{
+    text-align: center;
+ }
+ 
+ 
+ 
+ .caja img{
+    
+     
+     border-radius: 25px;
+     height: 400px;
+    margin-top: 20px;
+ }
+ 
+ 
+ 
+ .caja{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  
+    align-items: center;
+ }
+ 
+ .caja a{
+     width: 220px;
+     
+ }
+ 
+ .contenedor a{
+     text-decoration: none;
+     bottom: 3px;
+    background-image: linear-gradient(gray, black);
+     color: white;
+     border-radius: 10px;
+     padding: 3px;
+     text-align: center;
+    
+ }
+
+
+
+
+
+
+/* Nosotros */
+.centrar-nosotros{
+    text-align: center;
+}
+
+.alinear{
+    width: 70%;
+}
+
+.personal-contenedor{
+    display: flex;
+   flex-direction: column;
+  align-items: center;
+ 
+}
+
+
+.personal{
+   background-image: linear-gradient(gray,black);
+  width: 70%;
+  margin-bottom: -15px;
+  margin-top: 45px;
+  border-radius: 5px;
+  
+ 
+  padding: 15px;
+  display: flex;
+
+  
+}
+
+.personal img{
+    width: 220px;
+  
+}
+
+.personal  p{
+    color: white;
+    
+ 
+}
+  
+footer{
+    position: relative;
+    margin-top: 50px;
+   background-color: rgb(15, 15, 15);
+    padding: 25px;
+}
+
+footer svg{
+fill: rgb(255, 255, 255);
+width: 100px;
+height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  
+   
+   
+
+   
+   
+
+  
+   
+
+
+    
+    
+   
+
+
+
+
+
+    
+  
+
+
